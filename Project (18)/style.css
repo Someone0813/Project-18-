@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(176, 224, 228, 1.00);
+}
+.Form{
+    background-color: rgba(64, 102, 139, 1.00);
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+#display{
+    width: 320px;
+
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgba(231, 236, 240, 1.00);
+    border: none;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 38px;
+    color: black;
+}
+.BBUT{
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgba(41, 44, 49, 1.00);
+    color: white;
+    border: none;
+    font-size: 20px;
+    
+}
